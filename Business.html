@@ -1,364 +1,218 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="th">
 <head>
+    <title>WHAT WE DO | Order House</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    
+    <style>
+        body, h1, h2, h3, h4, h5, h6, p, a, li {
+            font-family: 'Kanit', sans-serif !important;
+        }
 
-<title>WHAT WE DO</title>
+        .inner header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
 
-<meta charset="utf-8" />
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
 
-<meta
-name="viewport"
-content="width=device-width, initial-scale=1, user-scalable=no"
-/>
+        .product-item {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            height: 100%;
+        }
 
-<link
-href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
-rel="stylesheet"
-/>
+        .product-item:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
 
-<link
-rel="stylesheet"
-href="assets/css/main.css"
-/>
+        .product-item img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
 
-<noscript>
-<link
-rel="stylesheet"
-href="assets/css/noscript.css"
-/>
-</noscript>
+        .product-item:hover img {
+            transform: scale(1.08);
+        }
 
-<style>
+        .product-info {
+            padding: 20px;
+            text-align: center;
+        }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-li{
-font-family:'Kanit',sans-serif !important;
-}
+        .product-item h4 {
+            margin: 0 0 8px 0;
+            color: #222;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
 
-.inner header{
-text-align:center;
-margin-bottom:50px;
-}
+        .product-item p {
+            color: #666;
+            font-size: 0.95rem;
+            margin: 0;
+            line-height: 1.5;
+        }
 
-.product-grid{
+        /* Hero Section */
+        #main header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 80px 0 60px;
+            border-radius: 0 0 30px 30px;
+        }
 
-display:grid;
+        #main h2 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 16px;
+        }
 
-grid-template-columns:
-repeat(3,1fr);
+        .subtitle {
+            font-size: 1.3rem;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto;
+        }
 
-gap:35px;
+        .section-title {
+            position: relative;
+            display: inline-block;
+        }
 
-margin-top:40px;
-
-}
-
-.product-item{
-
-background:#fff;
-
-padding:18px;
-
-border-radius:12px;
-
-text-align:center;
-
-box-shadow:
-0 8px 20px rgba(0,0,0,.08);
-
-transition:.3s;
-
-overflow:hidden;
-
-}
-
-.product-item:hover{
-
-transform:
-translateY(-6px);
-
-}
-
-.product-item img{
-
-width:100%;
-
-height:300px;
-
-object-fit:cover;
-
-display:block;
-
-border-radius:10px;
-
-}
-
-.product-item h4{
-
-margin-top:15px;
-
-margin-bottom:0;
-
-color:#222;
-
-}
-
-@media screen and (max-width:980px){
-
-.product-grid{
-
-grid-template-columns:
-repeat(2,1fr);
-
-}
-
-}
-
-@media screen and (max-width:640px){
-
-.product-grid{
-
-grid-template-columns:
-1fr;
-
-}
-
-}
-
-</style>
-
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: #ff6b6b;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
 </head>
 
-
-
 <body class="is-preload">
-
-<div id="page-wrapper">
-
-<header id="header">
-
-<h1>
-
-<a href="index.html">
-
-Back to Home
-
-</a>
-
-</h1>
-
-<nav id="nav">
-
-<ul>
-
-<li class="special">
-
-<a
-href="#menu"
-class="menuToggle">
-
-<span>Menu</span>
-
-</a>
-
-<div id="menu">
-
-<ul>
-
-<li>
-<a href="index.html">
-Home
-</a>
-</li>
-
-<li>
-<a href="Business.html">
-BUSINESS
-</a>
-</li>
-
-<li>
-<a href="Contact.html">
-Contact
-</a>
-</li>
-
-</ul>
-
-</div>
-
-</li>
-
-</ul>
-
-</nav>
-
-</header>
-
-
-
-<article id="main">
-
-<header>
-
-<h2>
-
-WHAT WE DO
-
-</h2>
-
-<p>
-
-Custom manufacturing and import solutions
-
-<br>
-
-for brands, hotels,
-events, and businesses.
-
-</p>
-
-</header>
-
-
-
-<section class="wrapper style5">
-
-<div class="inner">
-
-<header>
-
-<h3>
-
-OUR PRODUCT CATEGORIES
-
-</h3>
-
-<p>
-
-ตัวอย่างสินค้าที่เรารับผลิตและนำเข้า
-
-</p>
-
-</header>
-
-
-
-<div class="product-grid">
-
-
-<div class="product-item">
-
-<img src="images/pen.jpg" alt="">
-
-<h4>Premium Pens</h4>
-
-</div>
-
-
-<div class="product-item">
-
-<img src="images/clock.jpg" alt="">
-
-<h4>Wall Clock</h4>
-
-</div>
-
-
-<div class="product-item">
-
-<img src="images/bag.jpg" alt="">
-
-<h4>Canvas Bag</h4>
-
-</div>
-
-
-<div class="product-item">
-
-<img src="images/tumbler.jpg" alt="">
-
-<h4>Tumbler</h4>
-
-</div>
-
-
-<div class="product-item">
-
-<img src="images/watch.jpg" alt="">
-
-<h4>Smart Watch</h4>
-
-</div>
-
-
-<div class="product-item">
-
-<img src="images/bottle.jpg" alt="">
-
-<h4>Water Bottle</h4>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-</article>
-
-
-
-<footer id="footer">
-
-<ul class="copyright">
-
-<li>
-
-&copy;
-Order House Custom Products • Import • Manufacturing
-
-</li>
-
-<li>
-
-Design:
-HTML5 UP
-
-</li>
-
-</ul>
-
-</footer>
-
-
-</div>
-
-
-<script src="assets/js/jquery.min.js"></script>
-
-<script src="assets/js/jquery.scrollex.min.js"></script>
-
-<script src="assets/js/jquery.scrolly.min.js"></script>
-
-<script src="assets/js/browser.min.js"></script>
-
-<script src="assets/js/breakpoints.min.js"></script>
-
-<script src="assets/js/util.js"></script>
-
-<script src="assets/js/main.js"></script>
-
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Back to Home</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Business.html">BUSINESS</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="main">
+            <header>
+                <h2>WHAT WE DO</h2>
+                <p class="subtitle">
+                    Custom manufacturing และนำเข้าสินค้าคุณภาพสูง<br>
+                    สำหรับแบรนด์ โรงแรม อีเวนต์ และธุรกิจทุกประเภท
+                </p>
+            </header>
+
+            <section class="wrapper style5">
+                <div class="inner">
+                    <header>
+                        <h3 class="section-title">OUR PRODUCT CATEGORIES</h3>
+                        <p>ตัวอย่างสินค้าที่เรารับผลิตและนำเข้า</p>
+                    </header>
+
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <img src="images/pen.jpg" alt="Premium Pens">
+                            <div class="product-info">
+                                <h4>Premium Pens</h4>
+                                <p>ปากกาพรีเมี่ยม สกรีนโลโก้ได้</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <img src="images/clock.jpg" alt="Wall Clock">
+                            <div class="product-info">
+                                <h4>Wall Clock</h4>
+                                <p>นาฬิกาติดผนังดีไซน์ทันสมัย</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <img src="images/bag.jpg" alt="Canvas Bag">
+                            <div class="product-info">
+                                <h4>Canvas Bag</h4>
+                                <p>กระเป๋าผ้าแคนวาส แข็งแรง ทนทาน</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <img src="images/tumbler.jpg" alt="Tumbler">
+                            <div class="product-info">
+                                <h4>Tumbler</h4>
+                                <p>แก้วเก็บอุณหภูมิ พรีเมี่ยม</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <img src="images/watch.jpg" alt="Smart Watch">
+                            <div class="product-info">
+                                <h4>Smart Watch</h4>
+                                <p>นาฬิกาอัจฉริยะสำหรับของแจก</p>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <img src="images/bottle.jpg" alt="Water Bottle">
+                            <div class="product-info">
+                                <h4>Water Bottle</h4>
+                                <p>ขวดน้ำพรีเมี่ยม สกรีนโลโก้</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; Order House Custom Products • Import • Manufacturing</li>
+                <li>Design: HTML5 UP</li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
-
 </html>
