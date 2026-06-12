@@ -1,28 +1,115 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>WHAT WE DO</title>
-		<meta charset="utf-8" />
-		<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<head>
 
-		<style>
-    		body, h1, h2, h3, h4, h5, h6, p, a, li {
-     	   font-family: 'Kanit', sans-serif !important;
-	   	 }
-			.inner header{
+<title>WHAT WE DO</title>
 
+<meta charset="utf-8" />
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1, user-scalable=no"
+/>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+rel="stylesheet"
+/>
+
+<link
+rel="stylesheet"
+href="assets/css/main.css"
+/>
+
+<noscript>
+<link
+rel="stylesheet"
+href="assets/css/noscript.css"
+/>
+</noscript>
+
+<style>
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li{
+font-family:'Kanit',sans-serif !important;
+}
+
+.inner header{
 text-align:center;
+margin-bottom:50px;
+}
 
-margin-bottom:40px;
+.product-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:35px;
+
+margin-top:40px;
 
 }
 
-/* Tablet */
+.product-item{
+
+background:#fff;
+
+padding:18px;
+
+border-radius:12px;
+
+text-align:center;
+
+box-shadow:
+0 8px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+overflow:hidden;
+
+}
+
+.product-item:hover{
+
+transform:
+translateY(-6px);
+
+}
+
+.product-item img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+display:block;
+
+border-radius:10px;
+
+}
+
+.product-item h4{
+
+margin-top:15px;
+
+margin-bottom:0;
+
+color:#222;
+
+}
 
 @media screen and (max-width:980px){
 
@@ -35,8 +122,6 @@ repeat(2,1fr);
 
 }
 
-/* Mobile */
-
 @media screen and (max-width:640px){
 
 .product-grid{
@@ -48,114 +133,232 @@ grid-template-columns:
 
 }
 
-		</style>
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+</style>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Back to Home</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="Back to Home">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="Business.html">BUSINESS</a></li>
-											<li><a href="Contact.html">Contact</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<article id="main">
-						<header>
-							<h2>WHAT WE DO</h2>
-							<p>
-							Custom manufacturing and import solutions<br />
-							for brands, hotels, events, and businesses.
-							</p>
-						</header>
-						<section class="wrapper style5">
-							<div class="inner">
-
-							<header>
-								<h3>OUR PRODUCT CATEGORIES</h3>
-								<p>ตัวอย่างสินค้าที่เรารับผลิตและนำเข้า</p>
-							</header>
+</head>
 
 
-					<div class="product-grid">
+
+<body class="is-preload">
+
+<div id="page-wrapper">
+
+<header id="header">
+
+<h1>
+
+<a href="index.html">
+
+Back to Home
+
+</a>
+
+</h1>
+
+<nav id="nav">
+
+<ul>
+
+<li class="special">
+
+<a
+href="#menu"
+class="menuToggle">
+
+<span>Menu</span>
+
+</a>
+
+<div id="menu">
+
+<ul>
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="Business.html">
+BUSINESS
+</a>
+</li>
+
+<li>
+<a href="Contact.html">
+Contact
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+
+<article id="main">
+
+<header>
+
+<h2>
+
+WHAT WE DO
+
+</h2>
+
+<p>
+
+Custom manufacturing and import solutions
+
+<br>
+
+for brands, hotels,
+events, and businesses.
+
+</p>
+
+</header>
+
+
+
+<section class="wrapper style5">
+
+<div class="inner">
+
+<header>
+
+<h3>
+
+OUR PRODUCT CATEGORIES
+
+</h3>
+
+<p>
+
+ตัวอย่างสินค้าที่เรารับผลิตและนำเข้า
+
+</p>
+
+</header>
+
+
+
+<div class="product-grid">
+
 
 <div class="product-item">
+
 <img src="images/pen.jpg" alt="">
+
 <h4>Premium Pens</h4>
+
 </div>
 
 
 <div class="product-item">
+
 <img src="images/clock.jpg" alt="">
+
 <h4>Wall Clock</h4>
+
 </div>
 
 
 <div class="product-item">
+
 <img src="images/bag.jpg" alt="">
+
 <h4>Canvas Bag</h4>
+
 </div>
 
 
 <div class="product-item">
+
 <img src="images/tumbler.jpg" alt="">
+
 <h4>Tumbler</h4>
+
 </div>
 
 
 <div class="product-item">
+
 <img src="images/watch.jpg" alt="">
+
 <h4>Smart Watch</h4>
+
 </div>
 
 
 <div class="product-item">
+
 <img src="images/bottle.jpg" alt="">
+
 <h4>Water Bottle</h4>
+
 </div>
+
 
 </div>
 
 </div>
+
 </section>
-					</article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<ul class="copyright">
-							<li>&copy; Order House Custom Products • Import • Manufacturing</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+</article>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+<footer id="footer">
+
+<ul class="copyright">
+
+<li>
+
+&copy;
+Order House Custom Products • Import • Manufacturing
+
+</li>
+
+<li>
+
+Design:
+HTML5 UP
+
+</li>
+
+</ul>
+
+</footer>
+
+
+</div>
+
+
+<script src="assets/js/jquery.min.js"></script>
+
+<script src="assets/js/jquery.scrollex.min.js"></script>
+
+<script src="assets/js/jquery.scrolly.min.js"></script>
+
+<script src="assets/js/browser.min.js"></script>
+
+<script src="assets/js/breakpoints.min.js"></script>
+
+<script src="assets/js/util.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
